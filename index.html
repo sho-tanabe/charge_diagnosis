@@ -40,15 +40,25 @@
         <div class="h-adr" style="background-color: #eee;">    
             <p class="w-100 mx-3"><font size="+2">現在お住まいの地域</font></p>
             <div class="w-75 mx-auto">
-            
-
-            
-                <span class="form-control p-country-name mx-3 w-25 mt-3" style="display:none;">Japan</span>
-            
+                <span class="form-control p-country-name mx-3 w-25 mt-3" style="display:none;">Japan</span>            
+                
+                <!--test-->
+                <div class="form-floating">
+                    <input class="form-control p-postal-code w-75 mx-auto" id="postnumber" name="postnumber" type="number" maxlength="7" placeholder="0000000">
+                    <label for="postnumber">
+                        <font size="-1" color="gray">郵便番号</font>
+                        <font size="-2" color="violet">ハイフンなしの数字７桁</font>
+                    </label>
+                    <div class="valid-feedback">Good!</div>
+                    <div class="invalid-feedback">Required.</div>
+                </div>
+                <!--test-->
+                
+                <!--test一時コメントアウト中--
                 <p class="w-100 mx-3">郵便番号<font size="-2" color="violet"> *入力すると住所が自動入力されます。</font></p>
-            
                 <input type="text" class="form-control p-postal-code w-75 mx-auto" size="8" maxlength="7"　placeholder="0000000">
-            
+                <!--test-->
+
                 <br>
             
                 <p class="w-100 mx-3">都道府県<font size="-2" color="violet"> *手動での選択も可能です。</font></p>
@@ -156,10 +166,6 @@
             <p class="w-100 mx-3"><font size="+2">現在のガス料金情報</font></p>
             <div class="w-75 mx-auto">
 
-                
-                <!--<p class="w-100 mx-3">名前</p>
-                <input class="form-control w-75 mx-auto" id="nametest" name="entry.2144812415" type="number" maxlength="10" placeholder="00000">
-                <br>-->
 
 
                 <!--選択項目次第で入力項目を動的にするテスト開始1-->
