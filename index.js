@@ -99,8 +99,8 @@ $(function () {
         var resultround = Math.floor(difference);
         
         //コスト削減予定額
-//        var costcut = (resultround - 280) * $('#quantity').val();
-        var costcut = (resultround - 280) * $('#entry.1113780615').val();
+        var costcut = (resultround - 280) * $('#quantity').val();
+//        var costcut = (resultround - 280) * $('#entry.1113780615').val();
 
 
         //コスト削減予定額（LINEトーク送信用）
