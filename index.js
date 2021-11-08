@@ -141,7 +141,7 @@ $(function () {
 
             
             sendText(msg);
-//　　　　        sendText2(msg2);
+            sendText2(msg2);
     
 
             return false;            
