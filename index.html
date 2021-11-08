@@ -392,10 +392,30 @@
             
             <!--test-->
             <div class="form-floating">
-                <input class="form-control form-control-lg" id="billingamount" name="billingamount" type="number" maxlength="10" placeholder="00000円">
+                <input class="form-control form-control-lg" id="billingamount" name="entry.642272830" type="number" maxlength="10" placeholder="00000円">
                 <label for="billingamount">
                     <font size="-1" color="gray">ご請求予定金額</font>
                     <font size="-2" color="gray">(円)を入力</font>
+                </label>
+                <div class="valid-feedback">Good!</div>
+                <div class="invalid-feedback">Required.</div>
+            </div>
+            
+            <div class="form-floating">
+                <input class="form-control form-control-lg" id="basiccharge" name="entry.299805872" type="number" maxlength="10" placeholder="00000円">
+                <label for="basiccharge">
+                    <font size="-1" color="gray">基本料金</font>
+                    <font size="-2" color="gray">(円)を入力</font>
+                </label>
+                <div class="valid-feedback">Good!</div>
+                <div class="invalid-feedback">Required.</div>
+            </div>
+            
+            <div class="form-floating">
+                <input class="form-control form-control-lg" id="quantity" name="entry.1113780615" type="number" maxlength="10" placeholder="00000円">
+                <label for="quantity">
+                    <font size="-1" color="gray">今回ご使用量</font>
+                    <font size="-2" color="gray">(㎥)を入力</font>
                 </label>
                 <div class="valid-feedback">Good!</div>
                 <div class="invalid-feedback">Required.</div>
@@ -404,6 +424,9 @@
 
             
             <br>
+
+                
+<!--test中のため一時停止
             <p class="w-100 mx-3">基本料金(円)</p>
             <input class="form-control w-75 mx-auto" id="basiccharge" name="basiccharge" type="number" maxlength="10" placeholder="00000">
             <br>
@@ -413,7 +436,9 @@
             <br>
             <p class="w-100 mx-3">ガス料金単価(円)</p>
             <p class="w-75 mx-auto" id="unitprice" name="unitprice" value="0"></p>
-            <br>
+<!--test中のため一時停止-->            
+
+                <br>
 
             </div>
         </div>
