@@ -89,7 +89,7 @@ $(function () {
         var billingamount = $('input[name="entry.642272830"]').val();
         var basiccharge = $('input[name="entry.299805872"]').val();
         var quantity = $('input[name="entry.1113780615"]').val();
-        var unitprice = $('[name="1056785657"]').val();
+        var unitprice = $('[name="entry.1056785657"]').val();
         
 
         //算出結果
