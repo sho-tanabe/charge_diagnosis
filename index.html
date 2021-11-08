@@ -234,11 +234,42 @@
                 <br>
                 <!--p-region-idではなくp-regionを取得するためのテスト。画面上は非表示とする予定。終了-->
 
+                
+
+                <!--test一時コメントアウト中--
                 <p class="w-100 mx-3">市区町村<font size="-2" color="violet"> *手動での入力も可能です。</font></p>
                 <input type="text" id="address2" name="address2" class="form-control p-locality w-75 mx-auto"/>
                 <br>
                 <p class="w-100 mx-3">町・番地<font size="-2" color="violet"> *手動での入力も可能です。</font></p>
                 <input type="text" id="address3" name="address3" class="form-control p-street-address p-extended-address  w-75 mx-auto"/>
+                <!--test一時コメントアウト中-->                
+
+                <!--test-->
+                <div class="form-floating">
+                    <input class="form-control p-locality w-100 mx-auto" id="address2" name="address2" type="text" placeholder="xxx">
+                    <label for="address2">
+                        <font size="-1" color="gray">市区町村</font>
+                        <font size="-2" color="violet">手動での入力可能</font>
+                    </label>
+                    <div class="valid-feedback">Good!</div>
+                    <div class="invalid-feedback">Required.</div>
+                </div>
+                <!--test-->
+                <!--test-->
+                <div class="form-floating">
+                    <input class="form-control p-street-address p-extended-address  w-100 mx-auto" id="address3" name="address3" type="text" placeholder="xxx">
+                    <label for="address3">
+                        <font size="-1" color="gray">町・番地</font>
+                        <font size="-2" color="violet">手動での入力可能</font>
+                    </label>
+                    <div class="valid-feedback">Good!</div>
+                    <div class="invalid-feedback">Required.</div>
+                </div>
+                <!--test-->
+                
+                
+                
+                
                 <br>                
             </div>
         </div>
