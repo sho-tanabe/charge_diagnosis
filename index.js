@@ -93,11 +93,14 @@ $(function () {
         
 
         //算出結果
-        var difference = ( $('#billingamount').val() - $('#basiccharge').val() ) / $('#quantity').val();
+//        var difference = ( $('#billingamount').val() - $('#basiccharge').val() ) / $('#quantity').val();
+        var difference = ( $('#entry.642272830').val() - $('#entry.299805872').val() ) / $('#entry.1113780615').val();
         var resultround = Math.floor(difference);
         
         //コスト削減予定額
-        var costcut = (resultround - 280) * $('#quantity').val();
+//        var costcut = (resultround - 280) * $('#quantity').val();
+        var costcut = (resultround - 280) * $('#entry.1113780615').val();
+
 
         //コスト削減予定額（LINEトーク送信用）
         if (costcut < 1000){
