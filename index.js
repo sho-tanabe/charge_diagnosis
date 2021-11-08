@@ -93,8 +93,9 @@ $(function () {
         
 
         //算出結果
-//        var difference = ( $('#billingamount').val() - $('#basiccharge').val() ) / $('#quantity').val();
-        var difference = ( $('#entry.642272830').val() - $('#entry.299805872').val() ) / $('#entry.1113780615').val();
+//      var difference = ( $('#billingamount').val() - $('#basiccharge').val() ) / $('#quantity').val();
+//      var difference = ( $('#entry.642272830').val() - $('#entry.299805872').val() ) / $('#entry.1113780615').val();
+        var difference = ( $('#billingamount').val() - $('#basiccharge').val() ) / $('#quantity').val() ;
         var resultround = Math.floor(difference);
         
         //コスト削減予定額
