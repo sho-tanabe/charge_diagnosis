@@ -140,7 +140,7 @@ function update_field(){
 
     $('#unitprice').text(result);
     
-    if(quantity > 0){
+    if(resultabout > 0){
         $("#result_zone").show("normal");
     }else{
         $("#result_zone").hide("normal");
