@@ -136,11 +136,12 @@ function refresh() {
 function update_field(){    
     var resultabout = Math.floor( ( $('#billingamount').val() - $('#basiccharge').val() ) / $('#quantity').val() );
     var result = `${resultabout}円`;
+    var billingamount = $('#billingamount').val();
     var quantity = $('#quantity').val();
 
     $('#unitprice').text(result);
     
-    if(resultabout > 0){
+    if(billingamount > 0 && quantity > 0){
         $("#result_zone").show("normal");
     }else{
         $("#result_zone").hide("normal");
