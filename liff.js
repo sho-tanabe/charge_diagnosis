@@ -137,7 +137,15 @@ function update_field(){
     var resultabout = Math.floor( ( $('#billingamount').val() - $('#basiccharge').val() ) / $('#quantity').val() );
     var result = `${resultabout}円`;
     $('#unitprice').text(result);
+    
+    if(resultabout == 0){
+        $("#result_zone").hide("normal");
+    }else{
+        $("#result_zone").show("normal");
+    }       
+    
 }
+
 $(function() {
   $('input[type="number"]').on('keyup change', function() {
     update_field();
