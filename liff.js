@@ -70,7 +70,7 @@ function sendMessages(text) {
     }]).then(function () {
         document.googleform1.submit();
     }).then(function () {
-        window.alert('診断結果はLINEチャット画面に表示されます。');
+//        window.alert('診断結果はLINEチャット画面に表示されます。');
 //GoogleFormを利用しない場合に限り、then文とliff.closewindowをここに挟み込むことで画面クローズを動作させることができる。
     //}).then(function () {    
         //liff.closeWindow();
