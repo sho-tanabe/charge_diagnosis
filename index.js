@@ -145,7 +145,7 @@ $(function () {
         
         
         
-        if ( 4 > gas_house_val && gas_house_val >= 2 ){
+        if ( 4 > gas_house_index && gas_house_index >= 2 ){
             var msg = `【現在お住まいの地域】\n〒:${postnumber}\n${address1}${address2}${address3}\n住居形態:${gas_house}\n【現在のガス料金情報】\nご請求予定金額:${billingamount}円\n基本料金:${basiccharge}円\n今回ご使用量:${quantity}㎥\nガス料金単価:${resultround}円\n-----------\n【お安くなる金額目安】\n対象外住居形態のため判定できません。`;
             var msg2 = `対象外住居`;
         }
