@@ -176,7 +176,7 @@ function sendMessages2(text) {
         'type': 'text',
         'text': text
     }]).then(function () {
-        liff.closeWindow();
+//        liff.closeWindow();
     }).catch(function (error) {
         window.alert('Failed to send message ' + error);
     });
