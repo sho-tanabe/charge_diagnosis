@@ -118,12 +118,12 @@ $(function () {
                 var costcutmsg = `約${costcutfloor}円程度`;
                 }
         
-        var confirm = `【現在お住まいの地域】\n〒:${postnumber}\n都道府県:${address1}\n市区町村:${address2}\n町・番地:${address3}\n住居形態:${gas_house}\n【現在のガス料金情報】\nご請求予定金額:${billingamount}円\n基本料金:${basiccharge}円\n今回ご使用量:${quantity}㎥\nガス料金単価:${resultround}円`;
+        var confirm = `【現在お住まいの地域】\n〒:${postnumber}\n${address1}${address2}${address3}\n住居形態:${gas_house}\n【現在のガス料金情報】\nご請求予定金額:${billingamount}円\n基本料金:${basiccharge}円\n今回ご使用量:${quantity}㎥\nガス料金単価:${resultround}円`;
         
         if ( 7 >= address1num || address1num >= 15 ){
-            var msg = `【現在お住まいの地域】\n〒:${postnumber}\n都道府県:${address1}\n市区町村:${address2}\n町・番地:${address3}\n住居形態:${gas_house}\n【現在のガス料金情報】\nご請求予定金額:${billingamount}円\n基本料金:${basiccharge}円\n今回ご使用量:${quantity}㎥\nガス料金単価:${resultround}円\n-----------\n【お安くなる金額目安】\n対象外地域のため判定できません。`;
+            var msg = `【現在お住まいの地域】\n〒:${postnumber}\n${address1}${address2}${address3}\n住居形態:${gas_house}\n【現在のガス料金情報】\nご請求予定金額:${billingamount}円\n基本料金:${basiccharge}円\n今回ご使用量:${quantity}㎥\nガス料金単価:${resultround}円\n-----------\n【お安くなる金額目安】\n対象外地域のため判定できません。`;
         } else {
-            var msg = `【現在お住まいの地域】\n〒:${postnumber}\n都道府県:${address1}\n市区町村:${address2}\n町・番地:${address3}\n住居形態:${gas_house}\n【現在のガス料金情報】\nご請求予定金額:${billingamount}円\n基本料金:${basiccharge}円\n今回ご使用量:${quantity}㎥\nガス料金単価:${resultround}円\n-----------\n【お安くなる金額目安】\n${costcutmsg}`;
+            var msg = `【現在お住まいの地域】\n〒:${postnumber}\n${address1}${address2}${address3}\n住居形態:${gas_house}\n【現在のガス料金情報】\nご請求予定金額:${billingamount}円\n基本料金:${basiccharge}円\n今回ご使用量:${quantity}㎥\nガス料金単価:${resultround}円\n-----------\n【お安くなる金額目安】\n${costcutmsg}`;
         }
 
                 
