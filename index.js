@@ -141,7 +141,7 @@ $(function () {
         
         
         
-        if ( 4 > gas_house_index || gas_house_index >= 2 ){
+        if ( 4 > gas_house_index && gas_house_index >= 2 ){
             var msg2 = `対象外住居`;
         }
 
