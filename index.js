@@ -137,7 +137,13 @@ $(function () {
             var msg2 = `Bランク`; 
         } else {
             var msg2 = `Cランク`; 
-        } 
+        }
+        
+        
+        
+        if ( 2 > gas_house_index || gas_house_index >= 4 ){
+            var msg2 = `対象外住居`;
+        }
 
         
 
