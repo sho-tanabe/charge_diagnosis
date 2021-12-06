@@ -86,12 +86,9 @@ $(function () {
         
         //住居形態
         var gas_house = $('[name="entry.2013057432"] option:selected').text();
-        var gas_house_val = $('[name="entry.2013057432"] option:selected').val();
 
         var selectElem = document.getElementById('house');
         var gas_house_index = selectElem.selectedIndex;
-        window.alert(gas_house_val);
-        window.alert(gas_house_index);
         
         //計算要素項目
         var billingamount = $('input[name="entry.642272830"]').val();
